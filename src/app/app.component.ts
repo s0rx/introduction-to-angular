@@ -40,7 +40,7 @@ export class AppComponent {
   ];
 
   selectedLocation: HousingLocation | undefined;
-  
+
   updateSelectedLocation(location: HousingLocation) {
     this.selectedLocation = location;
   }
